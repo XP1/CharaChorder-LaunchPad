@@ -10,3 +10,11 @@ body {
   margin: 0px;
   background-color: black;
 }
+
+.manager:not(.connected) button:not(.connect) {
+  visibility: hidden;
+}
+
+.manager.connected button {
+  visibility: visible;
+}

@@ -26,7 +26,8 @@ export const Column = styled.div.attrs({
   })``;
   
   export const ManagerPageContainer = styled.section.attrs({
-    className: `text-white body-font min-h-screen bg-[#121212]`,
+    id: `manager`,
+    className: `manager text-white body-font min-h-screen bg-[#121212]`,
   })``;
   
   export const GManagerPageContainer = styled.section.attrs({
